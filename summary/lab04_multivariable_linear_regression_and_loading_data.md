@@ -14,8 +14,6 @@
 
 "많은 데이터를 편하게 관리하는 법"
 
----
-
 
 * **Simple** linear regression
 *  **Multivariate** linear regression
