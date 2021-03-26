@@ -1,12 +1,12 @@
 # LAB 01 > Tensor Manipulation  
  
-2차원 matrix(행렬)  
+ - 2차원 matrix(행렬)  
  
 **| t | = ( batch size , dim )**  
 |t| : tensor size,  
 dim : dimension  
  
-3차원 tensor  
+ - 3차원 tensor  
  
 **| t | = ( batch size , width , height )**  
 **= ( batch size , length , dim )**  
