@@ -1,4 +1,6 @@
 # [LAB 01] " Tensor Manipulation " 
+---
+
  
  - 2차원 matrix(행렬)  
  
@@ -11,7 +13,7 @@ dim : dimension
 **| t | = ( batch size , width , height )**  
 **= ( batch size , length , dim )**  
  
----  
+  
  
 ## Pytorch의 Broadcasting  
  
@@ -24,8 +26,7 @@ dim : dimension
 → pytorch의 broadcasting 기능 사용  
 → 자동으로 사이즈 맞춰서 연산 가능하게 함.  
  
- 
----  
+
  
 
 ## Matrix Multiplication (행렬곱)
@@ -38,7 +39,6 @@ dim : dimension
  2. 행렬곱
 
 
----
 
 ## Mean
 
@@ -63,17 +63,15 @@ ii) 3, 4의 평균 : 3.5
 i) 1, 3의 평균 : 2
 ii) 2, 4의 평균 : 3
 
----
+
 ## Sum
 mean 과 동일
 
 
----
 ## Max / Argmax
 Max : 가장 큰 값
 Argmax : 가장 큰 값의 인덱스 값
 
----
 
 ## View
 ≒ numpy의 reshape 함수
@@ -87,21 +85,21 @@ ft.view([-1, 3])
 ft.view([-1, 3]).shape
 ft.view([-1, 1, 3])S
 
----
+
 ## Squeeze
 view와 비슷함.
 
 자동으로 내가 원하는 dimension
 or 전체에서 하나밖에 없는 dimension 삭제
 
----
+
 
 ## Unsqueeze
 내가 원하는 dimension에 1 넣어줌.
 
 >**Note:** 꼭 dimension 명시!
 
----
+
 
 ## Type Casting
 
@@ -110,16 +108,16 @@ or 전체에서 하나밖에 없는 dimension 삭제
  - .ByteTensor
  
 
----
+
 ## Concatenate
 이어 붙이는 것
 
----
+
 
 ## Stacking
 concatenate 단순하게
 
----
+
 
 ## Ones / Zeros
 
@@ -131,7 +129,7 @@ concatenate 단순하게
  
 **같은 device의 tensor를 선언**
 
----
+
 ## In-place Operation
 
 
