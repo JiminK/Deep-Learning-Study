@@ -1,4 +1,4 @@
-# LAB 01 > Tensor Manipulation  
+# [LAB 01] " Tensor Manipulation " 
  
  - 2차원 matrix(행렬)  
  
@@ -43,7 +43,7 @@ dim : dimension
 ## Mean
 
 ex.
->1 2
+>1 2     
 3 4
  1. t.mean()
  **전체 평균** :  2.5
