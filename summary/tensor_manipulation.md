@@ -1,4 +1,4 @@
-# Tensor Manipulation  
+# LAB 01 > Tensor Manipulation  
  
 2차원 matrix(행렬)  
  
