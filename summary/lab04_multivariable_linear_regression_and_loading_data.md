@@ -18,7 +18,7 @@
 * **Simple** linear regression
 *  **Multivariate** linear regression
 
-" 데이터 多 "
+데이터 多 ...
 | 장점 | 단점 |
 |--|--|
 | **견고**하다 | 각 데이터들의 cost를 구해야 하므로 **연산 속도가 느려진다**
@@ -57,11 +57,11 @@ mini batch 하나하나를 학습시키는 방법.
 
 - 많이 사용하는 옵션
 
-- **shuffle=True**    
+     - **shuffle=True**    
 : **데이터의 학습 순서를 바꿈**    
 ⇒ 모델이 **데이터셋 순서 외우는 것 방지**     
 웬만하면 사용하기!!
 
-- **enumerate(dataloader)**     
+     - **enumerate(dataloader)**     
 : **minibatch의 인덱스, 데이터** 받음     
 이를 통해 x, y 설정 가능 ⇒ **gradient descent** 수행 가능     
