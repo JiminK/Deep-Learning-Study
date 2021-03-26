@@ -73,6 +73,7 @@ mean 과 동일
 Max : 가장 큰 값
 Argmax : 가장 큰 값의 인덱스 값
 
+---
 
 ## View
 ≒ numpy의 reshape 함수
@@ -99,6 +100,7 @@ or 전체에서 하나밖에 없는 dimension 삭제
 내가 원하는 dimension에 1 넣어줌.
 
 >**Note:** 꼭 dimension 명시!
+
 ---
 
 ## Type Casting
@@ -112,9 +114,12 @@ or 전체에서 하나밖에 없는 dimension 삭제
 ## Concatenate
 이어 붙이는 것
 
+---
 
 ## Stacking
 concatenate 단순하게
+
+---
 
 ## Ones / Zeros
 
