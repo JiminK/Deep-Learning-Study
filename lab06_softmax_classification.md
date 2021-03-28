@@ -20,3 +20,16 @@ cf) **PDF** (확률밀도함수)
 - 비율로, 확률적으로
 
 ## Cross Entropy
+**⇒ 최소화하는 것이 중요!**
+
+H(P, Q) = -Ex~p(x)[logQ(x)] = -∑x∈xP(x)logQ(x)
+
+## Cross Entropy Loss (low-level)
+
+>L = ∑-ylog(ˆy) / N
+
+y = P(X), ˆy = Pθ(X)
+
+## Cross Entropy Loss (torch.nn.functional 사용)
+**NLL** : 음의 로그 우도(가능도)
+⇒ 딥러닝모델의 손실함수
