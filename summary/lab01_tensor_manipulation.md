@@ -7,13 +7,13 @@
 **| t | = ( batch size , dim )**    
 |t| : tensor size,      
 dim : dimension     
-![0_1](./img/0_1.png)     
+![0_1](https://github.com/JiminK/Deep-Learning-Study/blob/main/img/0_1.png)     
 
  - 3차원 tensor    
  
 **| t | = ( batch size , width , height )**      
 **= ( batch size , length , dim )**     
-![0_2](./img/0_2.png)     
+![0_2](https://github.com/JiminK/Deep-Learning-Study/blob/main/img/0_2.png)     
   
  
 ## Pytorch의 Broadcasting  
