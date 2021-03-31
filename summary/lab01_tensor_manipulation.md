@@ -86,17 +86,27 @@ Argmax : 가장 큰 값의 인덱스 값
 
 
 ## View
-≒ numpy의 reshape 함수
+≒ numpy의 reshape 함수    
 
 ex.
 > t = [ [ [ 0 , 1 , 2 ] , [ 3 , 4 , 5 ] ] , [ [ 6 , 7 , 8 ] , [ 9 , 10 , 11 ] ] ]
+    
+<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/2_1.png"  width="387" height="300">      
+     
+<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/2_2.png"  width="418" height="250">      
+
 
 | ft | = ( 2 , 2 , 3 )
 
-ft.view([-1, 3])     
-ft.view([-1, 3]).shape    
-ft.view([-1, 1, 3])    
- 
+* ft.view([-1, 3])     
+<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/2_3.png"  width="291" height="300">      
+
+* ft.view([-1, 3]).shape   
+⇒ ( 4 , 3 )    
+<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/2_4.png"  width="447" height="250">      
+
+* ft.view([-1, 1, 3])    
+<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/2_5.png"  width="605" height="320">      
 
 ## Squeeze
 view와 비슷함.     
