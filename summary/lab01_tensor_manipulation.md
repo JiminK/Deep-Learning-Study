@@ -106,7 +106,7 @@ ex.
 <img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/2_4.png"  width="358" height="200">      
 
 * ft.view([-1, 1, 3])    
-<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/2_5.png"  width="473" height="250">      
+<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/2_5.png"  width="340" height="180">      
 
 ## Squeeze
 view와 비슷함.     
