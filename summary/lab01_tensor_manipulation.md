@@ -2,29 +2,30 @@
 ---
 
  
- - 2차원 matrix(행렬)  
+ - 2차원 matrix(행렬)    
  
-**| t | = ( batch size , dim )**  
-|t| : tensor size,  
-dim : dimension  
+**| t | = ( batch size , dim )**    
+|t| : tensor size,      
+dim : dimension     
+![0_1](./img/0_1.png)     
+
+ - 3차원 tensor    
  
- - 3차원 tensor  
- 
-**| t | = ( batch size , width , height )**  
-**= ( batch size , length , dim )**  
- 
+**| t | = ( batch size , width , height )**      
+**= ( batch size , length , dim )**     
+![0_2](./img/0_2.png)     
   
  
 ## Pytorch의 Broadcasting  
  
-> **Note:** 자동으로 적용되므로 주의!  
+> **Note:** 자동으로 적용되므로 주의!     
  
-- matrix 간 덧셈, 뺄셈, 연산할 때는 두 tensor의 크기가 같아야 함.  
-- 곱셈할 때는 마지막 차원 - 첫번째 차원 같아야 함  
+- matrix 간 덧셈, 뺄셈, 연산할 때는 두 tensor의 크기가 같아야 함.     
+- 곱셈할 때는 마지막 차원 - 첫번째 차원 같아야 함     
  
-다른 크기의 행렬을 연산해야하는 경우  
-→ pytorch의 broadcasting 기능 사용  
-→ 자동으로 사이즈 맞춰서 연산 가능하게 함.  
+다른 크기의 행렬을 연산해야하는 경우     
+→ pytorch의 broadcasting 기능 사용     
+→ 자동으로 사이즈 맞춰서 연산 가능하게 함.     
  
 
  
@@ -48,20 +49,20 @@ ex.
  1. t.mean()
  **전체 평균** :  2.5
  
- 2. t.mean(dim=0)  
- **첫번째 dimension의 평균  ⇒  열 기준** :
-i) 1, 3의 평균 : 2
-ii) 2, 4의 평균 : 3
+ 2. t.mean(dim=0)    
+ **첫번째 dimension의 평균  ⇒  열 기준** :    
+i) 1, 3의 평균 : 2    
+ii) 2, 4의 평균 : 3    
 
-3. t.mean(dim=1)
-**두번째 dimension의 평균 ⇒ 행 기준**
-i) 1, 2의 평균 : 1.5
-ii) 3, 4의 평균 : 3.5
+3. t.mean(dim=1)    
+**두번째 dimension의 평균 ⇒ 행 기준**    
+i) 1, 2의 평균 : 1.5    
+ii) 3, 4의 평균 : 3.5    
 
-4. t.mean(dim=-1)
-**첫번째 dimension의 평균  ⇒  열 기준** (*2와 동일*) :
-i) 1, 3의 평균 : 2
-ii) 2, 4의 평균 : 3
+4. t.mean(dim=-1)    
+**첫번째 dimension의 평균  ⇒  열 기준** (*2와 동일*) :    
+i) 1, 3의 평균 : 2    
+ii) 2, 4의 평균 : 3    
 
 
 ## Sum
@@ -81,15 +82,15 @@ ex.
 
 | ft | = ( 2 , 2 , 3 )
 
-ft.view([-1, 3])
-ft.view([-1, 3]).shape
-ft.view([-1, 1, 3])S
-
+ft.view([-1, 3])     
+ft.view([-1, 3]).shape    
+ft.view([-1, 1, 3])    
+ 
 
 ## Squeeze
-view와 비슷함.
+view와 비슷함.     
 
-자동으로 내가 원하는 dimension
+자동으로 내가 원하는 dimension     
 or 전체에서 하나밖에 없는 dimension 삭제
 
 
