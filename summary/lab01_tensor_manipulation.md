@@ -91,22 +91,22 @@ Argmax : 가장 큰 값의 인덱스 값
 ex.
 > t = [ [ [ 0 , 1 , 2 ] , [ 3 , 4 , 5 ] ] , [ [ 6 , 7 , 8 ] , [ 9 , 10 , 11 ] ] ]
     
-<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/2_1.png"  width="387" height="300">      
+<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/2_1.png"  width="258" height="200">      
      
-<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/2_2.png"  width="418" height="250">      
+<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/2_2.png"  width="368" height="220">      
 
 
 | ft | = ( 2 , 2 , 3 )
 
 * ft.view([-1, 3])     
-<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/2_3.png"  width="291" height="300">      
+<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/2_3.png"  width="194" height="200">      
 
 * ft.view([-1, 3]).shape   
 ⇒ ( 4 , 3 )    
-<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/2_4.png"  width="447" height="250">      
+<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/2_4.png"  width="358" height="200">      
 
 * ft.view([-1, 1, 3])    
-<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/2_5.png"  width="605" height="320">      
+<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/2_5.png"  width="473" height="250">      
 
 ## Squeeze
 view와 비슷함.     
