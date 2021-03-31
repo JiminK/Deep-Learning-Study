@@ -7,13 +7,14 @@
 **| t | = ( batch size , dim )**    
 |t| : tensor size,      
 dim : dimension     
-![0_1](https://github.com/JiminK/Deep-Learning-Study/blob/main/img/0_1.png)     
+<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/0_1.png"  width="345" height="250">    
+
 
  - 3차원 tensor    
  
 **| t | = ( batch size , width , height )**      
 **= ( batch size , length , dim )**     
-![0_2](https://github.com/JiminK/Deep-Learning-Study/blob/main/img/0_2.png)     
+<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/0_2.png"  width="288" height="250">     
   
  
 ## Pytorch의 Broadcasting  
@@ -34,11 +35,13 @@ dim : dimension
 
 일반 곱 != 행렬곱
 
- 1. 일반 곱
-
-
+ 1. 일반 곱    
+![1_1](https://github.com/JiminK/Deep-Learning-Study/blob/main/img/1_1.png)    
+<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/1_2.png"  width="364" height="250">    
+ 
  2. 행렬곱
-
+<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/1_3.png"  width="458" height="200">    
+<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/1_4.png"  width="350" height="250">    
 
 
 ## Mean
