@@ -12,7 +12,7 @@
 
 H(x) ≒ P(X=1)    
 | XㆍW | = ( m , d ) x ( d , 1 ) = ( m , 1 ) **⇒ m개의 element를 가진 1차원...**    
-<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/IMG_0646_copy.png"  width="448" height="250">    
+<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/IMG_0646_copy.png"  width="502" height="280">    
 
 cf) P(X=1) = 1 - P(X=0)
 
@@ -25,7 +25,7 @@ H(x) = P(x=1 ; w) = 1 - P(x=0 ; w)
 
 * (참고) **Sigmoid 함수**    
 : -∞ ⇒ 0, +∞ ⇒ 1    
-<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/IMG_0648_copy.png"  width="394" height="180">    
+<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/IMG_0648_copy.png"  width="328" height="150">    
 
 ## Gradient Descent
 
