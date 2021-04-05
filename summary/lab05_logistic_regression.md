@@ -22,6 +22,9 @@ cf) P(X=1) = 1 - P(X=0)
 H(x) = P(x=1 ; w) = 1 - P(x=0 ; w)    
 ⇒ **H(x)는 w가 주어졌을 때 x=1의 확률**
 
+* (참고) **Sigmoid 함수**    
+: -∞ ⇒ 0, +∞ ⇒ 1    
+<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/IMG_0648_copy.png"  width="548" height="250">    
 
 ## Gradient Descent
 
