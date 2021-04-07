@@ -22,7 +22,8 @@ cf) **PDF** (확률밀도함수)
 ## Cross Entropy
 **⇒ 최소화하는 것이 중요!**
 
-H(P, Q) = -Ex~p(x)[logQ(x)] = -∑x∈xP(x)logQ(x)
+H(P, Q) = -Ex~p(x)[logQ(x)] = -∑x∈xP(x)logQ(x)    
+<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/4_1.png"  width="432" height="200">    
 
 ## Cross Entropy Loss (low-level)
 
