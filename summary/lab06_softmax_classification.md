@@ -33,3 +33,13 @@ y = P(X), ˆy = Pθ(X)
 ## Cross Entropy Loss (torch.nn.functional 사용)
 **NLL** : 음의 로그 우도(가능도)
 ⇒ 딥러닝모델의 손실함수
+
+## 참고
+cf)    
+1. 기존의 Binary Classification    
+* Binary Cross Entropy **(BCE)**    
+* sigmoid 함수 사용    
+  
+2. 클래스 여러개    
+* Cross Entropy **(CE)**
+* Softmax 사용
