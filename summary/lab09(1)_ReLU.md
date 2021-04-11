@@ -37,5 +37,5 @@ cf) torch.nn.reaky_relu(x, 0.01)
 
 
 ## 디양한 Optimizer들 ...
-<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/7_1.png"  width="640" height="300">    
+<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/7_1.png"  width="683" height="340">    
 
