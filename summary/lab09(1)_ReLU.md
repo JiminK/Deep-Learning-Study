@@ -28,7 +28,7 @@ weight 업데이트 학습
 입력으로 들어온 x가    
 - 0보다 크다 ⇒ x    
 - 0보다 작다 ⇒ 0    
-<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/5_2.png"  width="569" height="250">    
+<img src="https://github.com/JiminK/Deep-Learning-Study/blob/main/img/6_1.png"  width="569" height="250">    
 
 x = torch.nn.sigmoid(x)    
 ⇒ **x = torch.nn.relu(x)**    
