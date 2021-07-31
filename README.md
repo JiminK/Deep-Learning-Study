@@ -1,1 +1,1 @@
-# Deep-Learning-Study
+# Studying Machine Learning and Deep Learning
